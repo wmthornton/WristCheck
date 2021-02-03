@@ -21,6 +21,7 @@ class Functions {
     
     public struct Global {
         
+        // We use a validation token that is created when a user completes initial app setup to determine which options a user should be shown during launch. This function creates the token and saves it to the local file system on the user's device.
         func saveTokenOnDisk() {
             
             let Timestamp = Variables.Global.Timestamp
@@ -37,6 +38,8 @@ class Functions {
             
         }
         
+        
+        // This function checks for the validation token created by saveTokenToDisk() and can be coded to perform different options depending on whether the token exists.
         func tokenCheck() {
             
             let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
@@ -61,9 +64,26 @@ class Functions {
             }
         }
         
+        func saveTimerOnDisk() {
+            
+            let Timestamp = Variables.Global.Timestamp
+            let validation = "\(Timestamp)"
+            let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("WristCheck_Timer.wck")
+            do {
+                try validation.write(to: path, atomically: true, encoding: .utf32)
+                
+            } catch {
+                
+                print(error.localizedDescription)
+                
+            }
+            
+        }
+        
+        
+        // Check for dark mode. Display alert if enabled. Alert is displayed on main thread.
         func checkMode() {
             
-            // Check for dark mode. Display alert if enabled. Alert is displayed on main thread.
             DispatchQueue.main.async {
                 
             if #available(iOS 13.0, *) {
@@ -140,6 +160,16 @@ class Functions {
                 //self.signupButton.alpha = 1
             }
             
+        }
+    }
+    
+    func exitApp() {
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            UIApplication.shared.perform(#selector(NSXPCConnection.suspend))
+             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+              exit(0)
+             }
         }
     }
     

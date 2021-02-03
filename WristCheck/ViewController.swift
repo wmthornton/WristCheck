@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         deviceIdentifierLabel.text = Variables.Global.DeviceEmail
-        
                 
     }
     
