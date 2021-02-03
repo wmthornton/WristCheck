@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C23BC0DDC41C793E410BB4 /* Pods_WristCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A738B225E26B363E1D442 /* Pods_WristCheck.framework */; };
+		B00B716725CAEDD80086264F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B716625CAEDD80086264F /* AppDelegate.swift */; };
+		B00B716925CAEDD80086264F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B716825CAEDD80086264F /* SceneDelegate.swift */; };
+		B00B716B25CAEDD80086264F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B716A25CAEDD80086264F /* ViewController.swift */; };
+		B00B716E25CAEDD80086264F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B716C25CAEDD80086264F /* Main.storyboard */; };
+		B00B717125CAEDD80086264F /* WristCheck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B00B716F25CAEDD80086264F /* WristCheck.xcdatamodeld */; };
+		B00B717325CAEDDB0086264F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00B717225CAEDDB0086264F /* Assets.xcassets */; };
+		B00B717625CAEDDB0086264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B717425CAEDDB0086264F /* LaunchScreen.storyboard */; };
+		B00B718225CAEE9A0086264F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B00B718125CAEE9A0086264F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47667CF58039544C1EBC7425 /* Pods-WristCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristCheck.debug.xcconfig"; path = "Target Support Files/Pods-WristCheck/Pods-WristCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		8A6A738B225E26B363E1D442 /* Pods_WristCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WristCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC5064CD670CA63F538079B /* Pods-WristCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristCheck.release.xcconfig"; path = "Target Support Files/Pods-WristCheck/Pods-WristCheck.release.xcconfig"; sourceTree = "<group>"; };
+		B00B716325CAEDD80086264F /* WristCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00B716625CAEDD80086264F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00B716825CAEDD80086264F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B00B716A25CAEDD80086264F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00B716D25CAEDD80086264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00B717025CAEDD80086264F /* WristCheck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WristCheck.xcdatamodel; sourceTree = "<group>"; };
+		B00B717225CAEDDB0086264F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00B717525CAEDDB0086264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00B717725CAEDDB0086264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00B718125CAEE9A0086264F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00B716025CAEDD80086264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C23BC0DDC41C793E410BB4 /* Pods_WristCheck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48734E0EF3B9563C35B70985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A738B225E26B363E1D442 /* Pods_WristCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00B715A25CAEDD80086264F = {
+			isa = PBXGroup;
+			children = (
+				B00B716525CAEDD80086264F /* WristCheck */,
+				B00B716425CAEDD80086264F /* Products */,
+				F3BCAF5946D2CE016EEE1CC0 /* Pods */,
+				48734E0EF3B9563C35B70985 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B00B716425CAEDD80086264F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00B716325CAEDD80086264F /* WristCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00B716525CAEDD80086264F /* WristCheck */ = {
+			isa = PBXGroup;
+			children = (
+				B00B716625CAEDD80086264F /* AppDelegate.swift */,
+				B00B716825CAEDD80086264F /* SceneDelegate.swift */,
+				B00B716A25CAEDD80086264F /* ViewController.swift */,
+				B00B716C25CAEDD80086264F /* Main.storyboard */,
+				B00B717225CAEDDB0086264F /* Assets.xcassets */,
+				B00B717425CAEDDB0086264F /* LaunchScreen.storyboard */,
+				B00B717725CAEDDB0086264F /* Info.plist */,
+				B00B718125CAEE9A0086264F /* GoogleService-Info.plist */,
+				B00B716F25CAEDD80086264F /* WristCheck.xcdatamodeld */,
+			);
+			path = WristCheck;
+			sourceTree = "<group>";
+		};
+		F3BCAF5946D2CE016EEE1CC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47667CF58039544C1EBC7425 /* Pods-WristCheck.debug.xcconfig */,
+				8FC5064CD670CA63F538079B /* Pods-WristCheck.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00B716225CAEDD80086264F /* WristCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00B717A25CAEDDB0086264F /* Build configuration list for PBXNativeTarget "WristCheck" */;
+			buildPhases = (
+				E2CE3FEBEB8717A7610E1656 /* [CP] Check Pods Manifest.lock */,
+				B00B715F25CAEDD80086264F /* Sources */,
+				B00B716025CAEDD80086264F /* Frameworks */,
+				B00B716125CAEDD80086264F /* Resources */,
+				A6345CDEACCD73E6FFA1C199 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WristCheck;
+			productName = WristCheck;
+			productReference = B00B716325CAEDD80086264F /* WristCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00B715B25CAEDD80086264F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B00B716225CAEDD80086264F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B00B715E25CAEDD80086264F /* Build configuration list for PBXProject "WristCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00B715A25CAEDD80086264F;
+			productRefGroup = B00B716425CAEDD80086264F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00B716225CAEDD80086264F /* WristCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00B716125CAEDD80086264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00B717625CAEDDB0086264F /* LaunchScreen.storyboard in Resources */,
+				B00B718225CAEE9A0086264F /* GoogleService-Info.plist in Resources */,
+				B00B717325CAEDDB0086264F /* Assets.xcassets in Resources */,
+				B00B716E25CAEDD80086264F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6345CDEACCD73E6FFA1C199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WristCheck/Pods-WristCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WristCheck/Pods-WristCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WristCheck/Pods-WristCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CE3FEBEB8717A7610E1656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WristCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00B715F25CAEDD80086264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00B716B25CAEDD80086264F /* ViewController.swift in Sources */,
+				B00B716725CAEDD80086264F /* AppDelegate.swift in Sources */,
+				B00B717125CAEDD80086264F /* WristCheck.xcdatamodeld in Sources */,
+				B00B716925CAEDD80086264F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B00B716C25CAEDD80086264F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00B716D25CAEDD80086264F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00B717425CAEDDB0086264F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00B717525CAEDDB0086264F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00B717825CAEDDB0086264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00B717925CAEDDB0086264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00B717B25CAEDDB0086264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47667CF58039544C1EBC7425 /* Pods-WristCheck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY27M8M993;
+				INFOPLIST_FILE = WristCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wayne.WristCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00B717C25CAEDDB0086264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC5064CD670CA63F538079B /* Pods-WristCheck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY27M8M993;
+				INFOPLIST_FILE = WristCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wayne.WristCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00B715E25CAEDD80086264F /* Build configuration list for PBXProject "WristCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00B717825CAEDDB0086264F /* Debug */,
+				B00B717925CAEDDB0086264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00B717A25CAEDDB0086264F /* Build configuration list for PBXNativeTarget "WristCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00B717B25CAEDDB0086264F /* Debug */,
+				B00B717C25CAEDDB0086264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B00B716F25CAEDD80086264F /* WristCheck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B00B717025CAEDD80086264F /* WristCheck.xcdatamodel */,
+			);
+			currentVersion = B00B717025CAEDD80086264F /* WristCheck.xcdatamodel */;
+			path = WristCheck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B00B715B25CAEDD80086264F /* Project object */;
+}
