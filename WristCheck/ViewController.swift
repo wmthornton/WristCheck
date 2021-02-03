@@ -13,11 +13,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var deviceIdentifierLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        deviceIdentifierLabel.text = Variables.Global.DeviceEmail
+        
+                
     }
-
-
+    
 }
 

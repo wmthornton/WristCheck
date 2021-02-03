@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		B00B717325CAEDDB0086264F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00B717225CAEDDB0086264F /* Assets.xcassets */; };
 		B00B717625CAEDDB0086264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B717425CAEDDB0086264F /* LaunchScreen.storyboard */; };
 		B00B718225CAEE9A0086264F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B00B718125CAEE9A0086264F /* GoogleService-Info.plist */; };
+		B08D50BD25CB09AB00E552E2 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08D50BC25CB09AA00E552E2 /* Variables.swift */; };
+		B08D50C025CB189B00E552E2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08D50BF25CB189B00E552E2 /* Functions.swift */; };
+		B08D50C425CB353900E552E2 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08D50C325CB353900E552E2 /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		B00B717525CAEDDB0086264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00B717725CAEDDB0086264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00B718125CAEE9A0086264F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B08D50BC25CB09AA00E552E2 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		B08D50BF25CB189B00E552E2 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		B08D50C325CB353900E552E2 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		B00B716525CAEDD80086264F /* WristCheck */ = {
 			isa = PBXGroup;
 			children = (
+				B08D50C625CB35B600E552E2 /* Global */,
 				B00B716625CAEDD80086264F /* AppDelegate.swift */,
 				B00B716825CAEDD80086264F /* SceneDelegate.swift */,
 				B00B716A25CAEDD80086264F /* ViewController.swift */,
@@ -88,13 +95,22 @@
 			path = WristCheck;
 			sourceTree = "<group>";
 		};
+		B08D50C625CB35B600E552E2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B08D50BC25CB09AA00E552E2 /* Variables.swift */,
+				B08D50BF25CB189B00E552E2 /* Functions.swift */,
+				B08D50C325CB353900E552E2 /* Style.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		F3BCAF5946D2CE016EEE1CC0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				47667CF58039544C1EBC7425 /* Pods-WristCheck.debug.xcconfig */,
 				8FC5064CD670CA63F538079B /* Pods-WristCheck.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,6 +233,9 @@
 				B00B716725CAEDD80086264F /* AppDelegate.swift in Sources */,
 				B00B717125CAEDD80086264F /* WristCheck.xcdatamodeld in Sources */,
 				B00B716925CAEDD80086264F /* SceneDelegate.swift in Sources */,
+				B08D50BD25CB09AB00E552E2 /* Variables.swift in Sources */,
+				B08D50C425CB353900E552E2 /* Style.swift in Sources */,
+				B08D50C025CB189B00E552E2 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
