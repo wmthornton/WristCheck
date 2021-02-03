@@ -12,16 +12,10 @@ This file contains Original Code and/or Modifications of Original code as define
 import UIKit
 
 class ViewController: UIViewController {
-
-
-    @IBOutlet weak var deviceIdentifierLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        deviceIdentifierLabel.text = Variables.Global.DeviceEmail
-                
     }
-    
 }
 
